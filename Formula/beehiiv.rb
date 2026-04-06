@@ -1,26 +1,26 @@
 class Beehiiv < Formula
   desc "Cross-platform Beehiiv API CLI"
   homepage "https://github.com/deldrid1/beehiiv-cli"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/deldrid1/beehiiv-cli/releases/download/v0.1.2/beehiiv_0.1.2_darwin_arm64.tar.gz"
-      sha256 "30bedba96725d38d6c71fc98ddff8ffeda456b288a96e40f35869c73341d94e6"
+      url "https://github.com/deldrid1/beehiiv-cli/releases/download/v0.1.3/beehiiv_0.1.3_darwin_arm64.tar.gz"
+      sha256 "d8e47d577345bba778e5b40457355e6d63d7fe74e7b289afea4cd7820aa83e11"
     else
-      url "https://github.com/deldrid1/beehiiv-cli/releases/download/v0.1.2/beehiiv_0.1.2_darwin_x86_64.tar.gz"
-      sha256 "6d62f9606e17bb924e5be7e75742c8e9b23b8ab1062c42b48a012fd5f1df66a9"
+      url "https://github.com/deldrid1/beehiiv-cli/releases/download/v0.1.3/beehiiv_0.1.3_darwin_x86_64.tar.gz"
+      sha256 "7d4d5a95020f919224a8883fb12485191acfe9be4c88c1f1ac015fe06babb548"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/deldrid1/beehiiv-cli/releases/download/v0.1.2/beehiiv_0.1.2_linux_arm64.tar.gz"
-      sha256 "bb489329efa07d86e475ad0fb365cd1e4b181be78dbbaec2d1fb3f6b057ff289"
+      url "https://github.com/deldrid1/beehiiv-cli/releases/download/v0.1.3/beehiiv_0.1.3_linux_arm64.tar.gz"
+      sha256 "09f640109c8c3bad025e64b3bd201fca7dc9871dc1b39d3929f195944db265d2"
     else
-      url "https://github.com/deldrid1/beehiiv-cli/releases/download/v0.1.2/beehiiv_0.1.2_linux_x86_64.tar.gz"
-      sha256 "64d3bc3b374e15495b6320acc97501bf7dbe6e03f3105694e235ed6d7bfd66f4"
+      url "https://github.com/deldrid1/beehiiv-cli/releases/download/v0.1.3/beehiiv_0.1.3_linux_x86_64.tar.gz"
+      sha256 "1644c7c10fe682c2c9098509aa7646d1f14ada11dd5e5f47f39758b8f7b966a6"
     end
   end
 
